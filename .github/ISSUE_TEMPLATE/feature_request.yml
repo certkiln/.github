@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an idea or a certificate workflow Certkiln should support
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the workflow or pain point, e.g. "Rotating SSH host keys across 200 servers is manual."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like Certkiln to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use today?
+      description: Other tools or workarounds you've tried (openssl scripts, step-ca, cert-manager, etc.).
+  - type: dropdown
+    id: scale
+    attributes:
+      label: Environment size
+      options:
+        - Homelab / personal
+        - Small team
+        - Organization / enterprise

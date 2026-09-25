@@ -1,0 +1,56 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+        **Security vulnerabilities must not be reported here.** Use the repository's Security tab → *Report a vulnerability* instead.
+        **Never paste private keys, CA keys, or secrets** into an issue. Redact them first.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Request a certificate with ...
+        3. See error ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - x509 certificates
+        - SSH certificates
+        - Web UI
+        - API
+        - Installation / deployment
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Certkiln version or commit
+      placeholder: e.g. 0.1.0 or a1b2c3d
+  - type: input
+    id: environment
+    attributes:
+      label: Deployment environment
+      placeholder: e.g. Docker 27 on Ubuntu 24.04, Firefox 140
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Redact any secrets, keys, or internal hostnames first.
+      render: shell
