@@ -14,14 +14,16 @@ supported release lines once versioned releases begin.
 **Please do not report security vulnerabilities in public issues, discussions,
 or pull requests.**
 
-Report them privately through GitHub:
+Email **security@certkiln.dev** with a description of the issue, steps to
+reproduce, affected versions, and the potential impact. This is the
+reliable path — GitHub's private vulnerability reporting (Security tab →
+**Report a vulnerability**) isn't available on every repository (it
+requires the repository to be public), so don't assume that button is
+there before falling back to email.
 
-1. Go to the **Security** tab of the affected repository.
-2. Click **Report a vulnerability**.
-3. Describe the issue, including steps to reproduce, affected versions, and the
-   potential impact.
-
-This opens a private advisory that only the maintainers can see.
+If a repository does have private vulnerability reporting enabled, using
+it instead of email is also fine — either reaches the maintainers
+privately.
 
 ## What to expect
 
