@@ -16,14 +16,7 @@ or pull requests.**
 
 Email **security@certkiln.dev** with a description of the issue, steps to
 reproduce, affected versions, and the potential impact. This is the
-reliable path — GitHub's private vulnerability reporting (Security tab →
-**Report a vulnerability**) isn't available on every repository (it
-requires the repository to be public), so don't assume that button is
-there before falling back to email.
-
-If a repository does have private vulnerability reporting enabled, using
-it instead of email is also fine — either reaches the maintainers
-privately.
+approved method for reporting a vulnerability privately at this time.
 
 ## What to expect
 
