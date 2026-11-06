@@ -14,17 +14,18 @@ team. Self-host it, point it at your directory, and start issuing.
 
 **Working today**
 
-- 🔥 **x509 certificates**: self-service issuing, renewal, and revocation from your own root or intermediate CA, with per-template key usage/EKU control
-- 🔑 **SSH certificates**: short-lived user and host certificates instead of scattered `authorized_keys`
-- 🔐 **LDAP/AD and OIDC login**, with RBAC scoped per CA or per template — local accounts work standalone too
-- 🗝️ **Key escrow + recovery**: opt-in per template, gated behind a second admin's approval
-- 📋 **CRL + OCSP**, audit logging, and renewal reminders (email or a Slack-compatible webhook) out of the box
+- **x509 certificates**: self-service issuing and revocation from your own root or intermediate CA, with per-template key usage/EKU control
+- **SSH certificates**: user certificates with per-template validity and KRL revocation, instead of scattered `authorized_keys`
+- **Login and access**: LDAP/AD, OIDC, SAML, and local accounts, with optional Duo MFA for local and LDAP logins and RBAC scoped per CA or per template
+- **Key escrow and recovery**: opt-in per template, with each recovery approved by someone other than the requester
+- **Revocation and operations**: CRL, OCSP, audit logging, encrypted backups, and renewal reminders (email or a Slack-compatible webhook)
+- **Automation and key storage**: API tokens for scripted issuance, and PKCS#11 HSM support for CA keys
 
-**On the roadmap** — SAML, ACME-compatible issuance, Kubernetes/Helm, and
-more: see the [main repo's ROADMAP](https://github.com/certkiln/certkiln/blob/master/ROADMAP.md).
+> **Status:** pre-1.0, no stable release yet, so expect breaking changes. The
+> source repository is currently private, and planned work is tracked in its
+> roadmap. Follow this organization to keep up.
 
-> **Status:** pre-1.0, no stable release yet — expect breaking changes.
-> Watch this organization to follow along.
+**Found a bug or have an idea?** [Open an issue](https://github.com/certkiln/.github/issues/new/choose).
 
 **Reporting a security issue?** Please don't open a public issue. See our
 [security policy](https://github.com/certkiln/.github/blob/main/SECURITY.md).

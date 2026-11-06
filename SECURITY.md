@@ -24,13 +24,12 @@ approved method for reporting a vulnerability privately at this time.
 - **An initial assessment** (confirmed, needs more information, or not a
   vulnerability) within 14 days.
 - **Coordinated disclosure:** we'll agree on a disclosure timeline with you,
-  publish a GitHub Security Advisory once a fix is available, and credit you
+  publish an advisory once a fix is available, and credit you
   unless you'd rather stay anonymous.
 
 ## Scope
 
-In scope: the Certkiln application, its official container images, and the
-code in repositories under the [certkiln](https://github.com/certkiln)
+In scope: the Certkiln application and the code in repositories under the [certkiln](https://github.com/certkiln)
 organization.
 
 Out of scope: vulnerabilities in third-party dependencies that have no

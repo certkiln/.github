@@ -10,19 +10,16 @@ contributions** (pull requests).
 
 You can still help right now:
 
-- **Report bugs** with the bug report template in the relevant repository.
+- **Report bugs** with the bug report template in
+  [this repository's issues](https://github.com/certkiln/.github/issues/new/choose).
 - **Suggest features**, especially real-world certificate workflows (x509,
   SSH, ACME) you'd like Certkiln to handle, using the feature request
-  template.
+  template in the same place.
 - **Report security issues** privately, following the
   [security policy](https://github.com/certkiln/.github/blob/main/SECURITY.md). Never open a public issue for these.
 
-**Want to read the code or see how something works?** Start with
-[`certkiln/certkiln`](https://github.com/certkiln/certkiln) — its
-`docs/architecture.md` is the map, `docs/adr/` explains why specific
-designs were chosen over the alternatives, and `ROADMAP.md` lists what's
-deliberately deferred (good material for a feature request, since it
-usually already explains what's blocking it).
+The source repository is currently private, so its code and developer
+documentation aren't available to read yet.
 
 This page will be updated with development setup, coding standards, and the
 pull request process once contributions open.

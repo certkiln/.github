@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug.
-        **Security vulnerabilities must not be reported here.** Use the repository's Security tab → *Report a vulnerability* instead.
+        **Security vulnerabilities must not be reported here.** Email security@certkiln.dev instead, as described in the [security policy](https://github.com/certkiln/.github/blob/main/SECURITY.md).
         **Never paste private keys, CA keys, or secrets** into an issue. Redact them first.
   - type: textarea
     id: what-happened
@@ -32,6 +32,8 @@ body:
       options:
         - x509 certificates
         - SSH certificates
+        - Login and access control
+        - Revocation (CRL, OCSP, KRL)
         - Web UI
         - API
         - Installation / deployment

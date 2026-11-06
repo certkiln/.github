@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Report a security vulnerability
     url: https://github.com/certkiln/.github/blob/main/SECURITY.md
-    about: Please don't open a public issue for security reports — use the Security tab on the affected repository instead.
+    about: Please don't open a public issue for security reports. Email security@certkiln.dev as described in the security policy.
   - name: Ask a question / get help
     url: https://github.com/certkiln/.github/blob/main/SUPPORT.md
     about: General questions and usage help.
