@@ -13,7 +13,7 @@ You can still help right now:
 - **Report bugs** with the bug report template in
   [this repository's issues](https://github.com/certkiln/.github/issues/new/choose).
 - **Suggest features**, especially real-world certificate workflows (x509,
-  SSH, ACME) you'd like Certkiln to handle, using the feature request
+  SSH) you'd like Certkiln to handle, using the feature request
   template in the same place.
 - **Report security issues** privately, following the
   [security policy](https://github.com/certkiln/.github/blob/main/SECURITY.md). Never open a public issue for these.
